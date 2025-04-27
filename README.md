@@ -1,6 +1,6 @@
 # Symmetry Discovery for Different Data Types
 
-This repository is the official implementation of Symmetry Discovery for Different Data Types.
+This repository is the official implementation of the paper [Symmetry Discovery for Different Data Types](https://www.sciencedirect.com/science/article/pii/S0893608025003600?casa_token=HcM8YohbzW0AAAAA:zc41l5ukhfRuEFwcT0cq_6roNM6i2simqtIIu70v6IaEL8w1uts7lI0GFQ9BwFIoK-ERgGco8do) (Neural Networks, 2025).
 
 ![image](./introduction.png)
 
@@ -148,4 +148,17 @@ To use LieGAN (baseline) for symmetry discovery in rotated MNIST, run this comma
 
 ```shell
 cd baseline && python main_baseline.py --task mnist --lamda 1 --g_init random --n_channel 1 --x_type image --y_type scalar --sigma_init 1 --eta 0.1 --num_epochs [num_epochs] --degree [degree] --gpu [gpu] --seed [seed]
+```
+
+## Citation
+
+```bibtex
+@article{hu2025symmetry,
+  title={Symmetry discovery for different data types},
+  author={Hu, Lexiang and Li, Yikang and Lin, Zhouchen},
+  journal={Neural Networks},
+  pages={107481},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
